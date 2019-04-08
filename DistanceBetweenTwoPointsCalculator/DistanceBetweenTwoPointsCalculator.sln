@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceBetweenTwoPointsCalculator", "DistanceBetweenTwoPointsCalculator\DistanceBetweenTwoPointsCalculator.csproj", "{7DD554EC-0312-4FEE-9772-3104F42CA0F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceBetweenTwoPointsCalculator.Tests", "DistanceBetweenTwoPointsCalculator.Tests\DistanceBetweenTwoPointsCalculator.Tests.csproj", "{70EF0F5E-40EF-48EE-A37F-EE081848BD66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7DD554EC-0312-4FEE-9772-3104F42CA0F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DD554EC-0312-4FEE-9772-3104F42CA0F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DD554EC-0312-4FEE-9772-3104F42CA0F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70EF0F5E-40EF-48EE-A37F-EE081848BD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70EF0F5E-40EF-48EE-A37F-EE081848BD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70EF0F5E-40EF-48EE-A37F-EE081848BD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70EF0F5E-40EF-48EE-A37F-EE081848BD66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
