@@ -10,17 +10,14 @@ namespace DistanceBetweenTwoPointsCalculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Podaj współrzędne punktu pierwszego:");
             Console.Write("x1 = ");
-            double x1 = Convert.ToDouble(Console.ReadLine());
+            double x1 = DistanceCalculatorHelper.ParseToDoubleInputValue();
             Console.Write("y1 = ");
-            double y1 = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Podaj współrzędne punktu drugiego:");
+            double y1 = DistanceCalculatorHelper.ParseToDoubleInputValue();
             Console.Write("x2 = ");
-            double x2 = Convert.ToDouble(Console.ReadLine());
+            double x2 = DistanceCalculatorHelper.ParseToDoubleInputValue();
             Console.Write("y2 = ");
-            double y2 = Convert.ToDouble(Console.ReadLine());
+            double y2 = DistanceCalculatorHelper.ParseToDoubleInputValue();
 
             double distanceBetweenTwoPoints2D = DistanceCalculatorHelper.DistanceBetweenTwoPoinst2D(x1, y1, x2, y2);
             Console.WriteLine("Odległość pomiędzy punktami wynosi: " + distanceBetweenTwoPoints2D);
