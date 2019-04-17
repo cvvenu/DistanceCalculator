@@ -16,5 +16,26 @@ namespace DistanceBetweenTwoPointsCalculator
             return result;
         }
 
+        static internal double ParseToDoubleInputValue()
+        {
+            Boolean areValueDouble = false;
+            double value = 0;
+            while(areValueDouble == false)
+            {
+                try
+                {
+                    value = Convert.ToDouble(Console.ReadLine());
+                    areValueDouble = true;
+                    
+                }
+                catch (System.FormatException)
+                {
+                    Console.WriteLine("To jest współrzędna punktu, należy podać liczbę");
+                }
+
+            }
+            return value;
+        }
+
     }
 }
