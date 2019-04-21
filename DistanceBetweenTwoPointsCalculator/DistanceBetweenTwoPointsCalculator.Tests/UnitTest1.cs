@@ -42,8 +42,9 @@ namespace DistanceBetweenTwoPointsCalculator.Tests
         //[ExpectedException(typeof(FormatException))]
         //public void ParsingStringToDoubleShouldReturnException()
         //{
-        //    var a = 's';
-        //    DistanceCalculatorHelper.ParseToDoubleInputValue();
+        //    String a = "s";
+        //    DistanceCalculatorHelper.ParseToDoubleInputValue(a);
+            
 
         //}
     }

@@ -25,7 +25,7 @@ namespace DistanceBetweenTwoPointsCalculator
             return result;
         }
 
-        static internal double ParseToDoubleInputValue()
+        static internal double ParseToDoubleInputValue(String tryToParse)
         {
             Boolean areValueDouble = false;
             double value = 0;
@@ -33,18 +33,16 @@ namespace DistanceBetweenTwoPointsCalculator
             {
                 try
                 {
-                    value = Convert.ToDouble(Console.ReadLine());
-                    areValueDouble = true;
-                    
+                    value = Convert.ToDouble(tryToParse);
+                    areValueDouble = true;                   
                 }
                 catch (System.FormatException)
                 {
                     Console.WriteLine("To jest współrzędna punktu, należy podać liczbę");
+                    tryToParse = Console.ReadLine();
                 }
-
             }
             return value;
         }
-
     }
 }
